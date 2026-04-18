@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color:cornsilk;
+    border: 1px solid beige;
+}
