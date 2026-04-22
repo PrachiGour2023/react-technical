@@ -7,6 +7,7 @@ const config: Config = {
     "^.+\\.tsx?$": "ts-jest",
   },
   moduleNameMapper: {
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
     "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/test/mocks/fileMock.ts",
   },
 };
