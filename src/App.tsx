@@ -1,11 +1,15 @@
 import Counter from './counter/Counter'
+import Toggle from './toggle/Toggle'
 
 function App() {
 
   return (
-    <>
-      <Counter />
-    </>
+    <div style={{
+      backgroundColor:'pink'
+    }}>
+      {/* <Counter /> */}
+      <Toggle />
+    </div>
   )
 }
 
