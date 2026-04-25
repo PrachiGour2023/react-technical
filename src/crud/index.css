@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px;
+    width: 40%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.input {
+    border: none;
+    font-size: medium;
+    width: 80%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.add {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: coral;
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.items {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(244, 242, 240);
+    width: 40%;
+}
+
+.item {
+    margin-left: 5px;
+}
+
+.btn-container {
+    display: flex;
+
+}
+
+.delete {
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clear {
+    background-color:dimgray;
+    border: none;
+    width: 40%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}

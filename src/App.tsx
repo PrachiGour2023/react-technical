@@ -1,10 +1,11 @@
-import Toggle from './toggle/Toggle'
+import Todo from "./crud/Todo"
+
 
 function App() {
 
   return (
     <div>
-      <Toggle />
+      <Todo />
     </div>
   )
 }
