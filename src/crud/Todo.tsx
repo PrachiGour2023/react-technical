@@ -48,7 +48,7 @@ const Todo = () => {
             <h1>Todo App</h1>
 
             <div className="input-container">
-                <input value={input} className="input" onChange={handleChange} />
+                <input type="text" placeholder="Enter Text" name="todoname" value={input} className="input" onChange={handleChange} />
                 <button className="add" onClick={isEdit ? handleUpdate : handleAddTodo}>{isEdit ? 'UPDATE' : 'ADD'}</button>
             </div>
             <div className="items">
