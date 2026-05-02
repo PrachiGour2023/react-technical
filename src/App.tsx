@@ -1,10 +1,10 @@
-import Todo from "./crud/Todo"
+import FilterAndSorting from "./sortandfilter/FilterAndSorting"
 
 function App() {
 
   return (
     <div>
-      <Todo />
+      <FilterAndSorting />
     </div>
   )
 }
