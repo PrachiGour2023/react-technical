@@ -49,16 +49,16 @@ const FilterAndSorting = () => {
                     <option value="price">Price</option>
                 </select>
                 <select name='sortOrder' onChange={handleChangeFilter} className='filter-2'>
-                    <option className='asc'>Asc</option>
-                    <option className='desc'>Desc</option>
+                    <option value='asc'>Asc</option>
+                    <option value='desc'>Desc</option>
                 </select>
                 <button className='apply-filter' onClick={handleFilter}>Apply Filter</button>
             </div>
             <div className='container'>
                 {
-                    products.map((product, i) => {
+                    products.map(product => {
                         return (
-                            <ProductCard item={product} key={i} />
+                            <ProductCard item={product} key={product.id} />
                         )
                     })
                 }
