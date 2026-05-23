@@ -1,10 +1,12 @@
-import FilterAndSorting from "./sortandfilter/FilterAndSorting"
+import { WindowResizeScreen } from "./throttle/WindowResizeScreen"
+import InfiniteScroll from "./throttle/InfiniteScroll"
 
 function App() {
 
   return (
     <div>
-      <FilterAndSorting />
+      {/* <WindowResizeScreen /> */}
+      <InfiniteScroll />
     </div>
   )
 }
