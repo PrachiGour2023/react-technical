@@ -1,10 +1,10 @@
-import FilterAndSorting from "./sortandfilter/FilterAndSorting"
+import DarkModeToggle from "./darkMode/DarkModeToggle"
 
 function App() {
 
   return (
     <div>
-      <FilterAndSorting />
+      <DarkModeToggle />
     </div>
   )
 }
